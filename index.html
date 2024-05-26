@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <title>ALX shoe Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="navTop">
+      <div class="navItem">
+        <img src="images/sneakers.png" alt="">
+      </div>
+      <div class="navItem">
+        <div class="search">
+          <input type="text" class="searchInput" placeholder="Search">
+          <img src="images/search.png" width="20" height="20" alt="">
+        </div>
+      </div>
+      <div class="navItem">
+        <span class="offerInfo">Limited Offer</span>
+      </div>
+    </div>
+    <div class="navBottom">
+      <h3 class="menuItem">AIR FORCE</h3>
+      <h3 class="menuItem">JORDAN</h3>
+      <h3 class="menuItem">BLAZER</h3>
+      <h3 class="menuItem">CRATER</h3>
+      <h3 class="menuItem">HIPPIE</h3>
+    </div>
+  </nav>
+
+  <div class="slider">
+    <div class="sliderWrapper">
+      <div class="sliderItem">
+        <img src="images/air.png" class="productImage" alt="">
+        <div class="sliderBg"></div>
+        <h1 class="productTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+        <h2 class="productPrice">$119</h2>
+        <a href="#product">
+        <button class="buyBtn">BUY NOW</button>
+      </a>
+      </div>
+
+      <div class="sliderItem">
+        <img src="images/jordan.png" class="productImage" alt="">
+        <div class="sliderBg"></div>
+        <h1 class="productTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+        <h2 class="productPrice">$149</h2>
+        <a href="#product">
+        <button class="buyBtn">BUY NOW</button>
+      </a>
+      </div>
+
+      <div class="sliderItem">
+        <img src="images/blazer.png" class="productImage" alt="">
+        <div class="sliderBg"></div>
+        <h1 class="productTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+        <h2 class="productPrice">$250</h2>
+        <a href="#product">
+        <button class="buyBtn">BUY NOW</button>
+      </a>
+      </div>
+
+      <div class="sliderItem">
+        <img src="images/crater.png" class="productImage" alt="">
+        <div class="sliderBg"></div>
+        <h1 class="productTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+        <h2 class="productPrice">$103</h2>
+        <a href="#product">
+        <button class="buyBtn">BUY NOW</button>
+      </a>
+      </div>
+
+      <div class="sliderItem">
+        <img src="images/hippie.png" class="productImage" alt="">
+        <div class="sliderBg"></div>
+        <h1 class="productTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+        <h2 class="productPrice">$200</h2>
+        <a href="#product">
+          <button class="buyBtn">BUY NOW</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div class="features">
+    <div class="feature">
+      <img class="feature-icon" src="images/shipping.png" class="feature-image" alt="">
+      <span class="feature-title">FREE SHIPPING</span>
+      <span class="featureDesc">Free Worldwide Shipping on All Products.</span>
+    </div>
+
+    <div class="feature">
+      <img class="feature-icon" src="images/return.png" alt="">
+      <span class="feature-title">DAYS RETURN</span>
+      <span class="featureDesc">No Question Return <br> And Easy Refund In 14 Days</span>
+    </div>
+
+    <div class="feature">
+      <img class="feature-icon" src="images/gift.png" alt="">
+      <span class="feature-title">GIFT CARDS</span>
+      <span class="featureDesc">Buy Gift Cards And Use Coupon Codes Esily</span>
+    </div>
+
+    <div class="feature">
+      <img src="images/contact.png" class=" feature-icon " alt="">
+      <span class="feature-title">CONTACT US</span>
+      <span class="featureDesc">Keep In Touch Via Email And Support System</span>
+    </div>
+  </div>
+
+
+  <div class="products" id="product">
+    <img class="productImg" src="images/air.png" class="product" alt="">
+    <div class="productInfo">
+      <h1 class="productName">AIR FORCE</h1>
+      <h1 class="productCost">$199</h1>
+      <p class="productDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum nihil voluptatum facilis, adipisci <br> commodi delectus explicabo <br>  voluptas recusandae eum distinctio, optio corporis atque nisi!</p>
+
+    <div class="colors">
+      <div class="color"></div>
+      <div class="color"></div>
+    </div>
+    <div class="sizes">
+      <div class="size">42</div>
+      <div class="size">43</div>
+      <div class="size">44</div>
+    </div>
+    <button class="productBtn">BUY NOW</button>
+  </div>
+
+  <div class="payment">
+    <h1 class="paymentTitle">Personal Information</h1>
+    <label>Name and SurName</label>
+    <input class="payInput" placeholder="Alex Maina">
+    <label>Phone Number</label>
+    <input type="number" class="payInput" placeholder="+254756255245">
+    <label>Adress</label>
+    <input type="text" class="payInput" placeholder="Tumsifu Ld 15065">
+
+
+    <h1 class="paymentTitle">Card Information</h1>
+    <div class="cardIcons">
+      <img src="images/visa.png" width="40" class="cardIcon">
+      <img src="images/master.png" width="40" class="cardIcon">
+    </div>
+    <input type="password" class="payInput" placeholder="card number">
+    <div class="cardInfo">
+    <input type="password" class="payInput sm" placeholder="mm">
+    <input type="password" class="payInput" placeholder="yyyy">
+    <input type="password" class="payInput" placeholder="cvv">
+  </div>
+    <button class="payBtn">Checkout</button>
+    <span class="close">X</span>
+  </div>
+</div>
+<footer>
+  <div class="footer-left">
+    <div class="footerMenu">
+      <h1 class="TitleMenu">About Us</h1>
+      <ul class="menuList">
+        <li class="firstList">Company</li>
+        <li class="firstList">Contact</li>
+        <li class="firstList">Careers</li>
+        <li class="firstList">Affiliates</li>
+        <li class="firstList">Stores</li>
+      </ul>
+    </div>
+    <div class="footerMenu">
+      <h1 class="TitleMenu">Useful Links</h1>
+      <ul class="menuList">
+        <li class="firstList">Support</li>
+        <li class="firstList">Refund</li>
+        <li class="firstList">FAQ</li>
+        <li class="firstList">Feedback</li>
+        <li class="firstList">Stoies</li>
+      </ul>
+    </div>
+    <div class="footerMenu">
+      <h1 class="TitleMenu">Products</h1>
+      <ul class="menuList">
+        <li class="firstList">Air Max</li>
+        <li class="firstList">Air Jordan</li>
+        <li class="firstList">Blazer</li>
+        <li class="firstList">Crater</li>
+        <li class="firstList">Hippie</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
